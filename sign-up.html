@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./materialize/css/materialize.css">
+  <link rel="stylesheet" href="./materialize/css/materialize.min.css">
+  <link rel="icon" type="image/x-icon" href="./img/spear mace pfp.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viale</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="./index.html" class="brand-logo">Viale</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="./friends.html">Friends</a></li>
+        <li><a href="./terms-conditions.html">Terms and Conditions</a></li>
+        <li><a href="./sign-up.html">Sign Up</a></li>
+        <li><a href="https://youtube.com/@1tzVialle">YouTube Channel</a></li>
+      </ul>
+    </div>
+  </nav>
+  <center><h4><b>Welcome to the Sign up page.</b></h4></center>
+
+<div class="row">
+  <form action="./index.html" class="col s12" method="get">
+
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="first_name" type="text" class="validate" required>
+        <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="last_name" type="text" class="validate" required>
+        <label for="last_name">Last Name</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="password" type="password" class="validate" required>
+        <label for="password">Password</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="email" type="email" class="validate" required>
+        <label for="email">Email</label>
+        <span class="helper-text" data-error="Invalid email" data-success="Looks good!">Helper text</span>
+      </div>
+    </div>
+
+    <div>
+      <button class="btn waves-effect waves-light" type="submit" name="action">Submit</button>
+    </div>
+
+  </form>
+</div>
+  <script type="text/javascript" src="./js/materialize.js"></script>
+  <script type="text/javascript" src="./js/materialize.min.js"></script>
+</body>
+</html>
